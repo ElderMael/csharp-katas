@@ -1,0 +1,3 @@
+=C# Katas=
+
+All code under LGPL v3 or later
