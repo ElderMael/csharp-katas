@@ -1,0 +1,47 @@
+//
+//  NasaCountdownKata.cs
+//
+//  Author:
+//       ElderMael <sftwr.mael@gmail.com>
+//
+//  Copyright (c) 2012 
+//
+//  This program is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU Lesser General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU Lesser General Public License for more details.
+//
+//  You should have received a copy of the GNU Lesser General Public License
+//  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+using System;
+
+namespace CSharpKata
+{
+    public class NasaCountdownKata : INasaCountdownKata
+    {
+        public NasaCountdownKata()
+        {
+
+        }
+
+        public int[] Countdown(int start)
+        {
+            int[] countdown = new int[start + 1];
+
+            int index = 0;
+
+            for (; start > 0; start--)
+            {
+                countdown [index++] = start;
+            }
+
+            return countdown;
+        }
+    }
+}
+

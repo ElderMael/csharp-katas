@@ -46,6 +46,9 @@
     <Compile Include="ITeaPartyKata.cs" />
     <Compile Include="TeaPartyKata.cs" />
     <Compile Include="TeaPartyKataTest.cs" />
+    <Compile Include="INasaCountdownKata.cs" />
+    <Compile Include="NasaCountdownKata.cs" />
+    <Compile Include="INasaCountdownKataTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
