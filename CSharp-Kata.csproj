@@ -43,6 +43,9 @@
     <Compile Include="IFizzBuzzKata.cs" />
     <Compile Include="FizzBuzzKataImpl.cs" />
     <Compile Include="FizzBuzzTest.cs" />
+    <Compile Include="ITeaPartyKata.cs" />
+    <Compile Include="TeaPartyKata.cs" />
+    <Compile Include="TeaPartyKataTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
